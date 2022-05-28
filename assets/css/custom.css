@@ -1,0 +1,26 @@
+body {
+background-color: #e4e6ef;
+}
+
+.page-bg {
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../media/misc/page-bg.jpg);
+}
+
+@media (min-width: 992px) {
+  .header-fixed.toolbar-fixed .wrapper {
+      padding-top: unset;
+  }
+  .aside-enabled.aside-fixed .wrapper {
+    padding-left: unset;
+  }
+  .aside-enabled.aside-fixed.header-fixed .header {
+    left: 0;
+  }
+  .content {
+      padding: 90px 0;
+  }
+}
